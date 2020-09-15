@@ -1,0 +1,14 @@
+.valorNeg{
+    color:red;
+    font-weight: bold;
+}
+.valorPos{
+    color: green;
+    font-weight: bold;
+}
+.resumoBarra{
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px;
+    background-color: #e6f4ff;
+    border: 1px solid #c8e0f2;
+}
