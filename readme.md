@@ -6,7 +6,7 @@ Criar um projeto que, baseado no mês e ano selecionado, busque no MongoDB, os r
 Para isso acima, foi preciso criar endpoints para cada tipo de ação do usuário com Node.js e Express, estilizá-lo com CSS e Materialize.css. (Que ainda vou estilizar melhor)
 
 ### Tecnologias usadas
-Javascript, React.js com Hooks, Node.js, Express, MongoDB, Materialize.css, Git e Heroku
+Javascript, React.js com Hooks, Node.js, Express, MongoDB com Mongoose, Materialize.css, Git e Heroku
 
 ### Projeto final
 
