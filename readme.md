@@ -13,4 +13,4 @@ Javascript, React.js com Hooks, Node.js, Express, MongoDB, Materialize.css, Git 
 <a href="https://pedropaulodf-desafio-final.herokuapp.com/" target="_blank">Veja ele no Heroku</a>
 
 
-<img src="client/public/img.png" >
+<img src="app/client/public/img.png" >
