@@ -16,7 +16,6 @@
 }
 .tdId {
   grid-area: dia;
-  /* width: 10%; */
   text-align: center;
   font-size: 1.9em;
   background-color: rgb(0 0 0 / 6%);
@@ -29,7 +28,6 @@
 }
 .tdDescricao {
   grid-area: descricao;
-  /* width: 60%; */
   font-size: 1.2em;
 }
 .tdDescricao p {
@@ -37,7 +35,6 @@
 }
 .tdValor {
   grid-area: valor;
-  /* width: 20%; */
   text-align: center;
   font-size: 1.3em;
   background-color: rgb(0 0 0 / 4%);
@@ -50,7 +47,6 @@
 }
 .tdActions {
   grid-area: actions;
-  /* width: 10%; */
   text-align: center;
 }
 
