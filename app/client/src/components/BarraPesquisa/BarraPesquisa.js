@@ -1,4 +1,5 @@
 import React from 'react'
+import css from './BarraPesquisa.module.css'
 
 export default function BarraPesquisa({ onButtonClick, onInputChangeBusca }) {
 
@@ -11,16 +12,16 @@ export default function BarraPesquisa({ onButtonClick, onInputChangeBusca }) {
     }
 
     return (
-        <div className="row">
-            <div className="input-field col s5">
-                <button className="waves-effect waves-light btn" style={{ zIndex: '0', width: '100%' }} onClick={handleButtonClick}>
+        <div className={`${css.container}`}>
+            <div className={`${css.inputBlock}`}>
+                <button onClick={handleButtonClick}>
                     <i className="material-icons left" >add</i>
                         Novo Lançamento
-                    </button>
+                </button>
             </div>
 
-            <div className="input-field col s7">
-                <input id="inputSearch" type="text" placeholder="Faça sua busca:" className="validate" onChange={handleInputChange} />
+            <div className={`${css.inputBlock}`}>
+                <input id="inputSearch" type="text" placeholder="Faça sua busca:" onChange={handleInputChange} />
             </div>
         </div>
     )

@@ -1,14 +1,65 @@
-.valorNeg{
-    color:red;
-    font-weight: bold;
-}
-.valorPos{
-    color: green;
-    font-weight: bold;
-}
 .resumoBarra{
     margin: 10px 0px 0px 0px;
-    padding: 10px 0px;
-    background-color: #e6f4ff;
-    border: 1px solid #c8e0f2;
+    display:  grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 14px;
+}
+
+.resumoBarra > div{
+    display: grid;
+    box-shadow: 2px 2px 7px 0px #0003;
+    border-radius: 7px;
+    font-size: 1.3rem;
+    background-color: rgb(247, 247, 247);
+}
+
+.resumoBarra div div{
+    width: 100%;
+    height: 38px;
+    line-height: 2px;
+    font-weight: bold;
+    background-color: #00000014;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.resumoBarra div div p{
+    /* font-weight: bold; */
+    margin-right: 5px ;
+}
+
+.resumoBarra div span{
+    line-height: 44px;
+}
+
+.valorNeg{
+    background-color:#ec5b5b !important;
+    color:white;
+    font-weight: bold;
+}
+
+.valorPos{
+    background-color: #53a553 !important;
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    .resumoBarra{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    } 
+    .resumoBarra div{
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 330px) {
+    .resumoBarra{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    } 
+    .resumoBarra div{
+        font-size: 1.3rem;
+    }
 }

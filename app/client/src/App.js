@@ -3,7 +3,7 @@ import Preloader from './components/Preloader';
 import * as api from './api/apiService.js';
 import BarraResumo from './components/BarraResumo/BarraResumo.js';
 import ListaTransacoes from './components/ListaTransacoes/ListaTransacoes.js';
-import BarraPesquisa from './components/BarraPesquisa';
+import BarraPesquisa from './components/BarraPesquisa/BarraPesquisa';
 import ModalNovoLancamento from './components/ModalAdd/ModalNovoLancamento';
 import ModalEditarLancamento from './components/ModalEdit/ModalEditarLancamento';
 
@@ -225,7 +225,7 @@ export default function App() {
         <div>
 
           <select
-            className="browser-default"
+            className="browser-default select-style"
             // value={allAnosMeses[0]}
             onChange={handleSelectChange}
           >
