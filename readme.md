@@ -11,6 +11,7 @@ Javascript, React.js com Hooks, Node.js, Express, MongoDB com Mongoose, Material
 ### Projeto final
 
 <a href="https://pedropaulodf-desafio-final.herokuapp.com/" target="_blank">Veja ele no Heroku</a>
+ou [veja na Vercel](https://igti-fullstack-projeto-final-react.vercel.app/)
 
 
 <img src="app/client/public/imgReadme.png" >
